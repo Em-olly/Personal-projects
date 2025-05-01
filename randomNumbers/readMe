@@ -1,0 +1,15 @@
+Write an Express.js server with three GET endpoints:
+
+/coinFlip which accepts a query parameter times (default 1), flips a coin 
+that many times, and returns a JSON object with the key "result" containing 
+an array of outcomes ("Heads" or "Tails").
+
+/diceRoll which accepts a query parameter times (default 1), rolls a 
+six-sided dice that many times, and returns a JSON object with the key 
+"result" containing an array of the roll results.
+
+/randomNumber which accepts optional query parameters min and max 
+(default 1 and 100 respectively), validates that min is less than max, 
+and returns a JSON object with the key "result" containing a single random 
+number within the range [min, max].
+Provide the complete Express.js code implementing this functionality.

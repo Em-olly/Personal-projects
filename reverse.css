@@ -1,0 +1,59 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Light gray background for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    background: white;
+    padding: 30px; /* Increased padding for a more spacious feel */
+    border-radius: 12px; /* Slightly larger border radius */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+    border: 1px solid #007bff; /* Bootstrap blue for consistency */
+    max-width: 400px; /* Limit the width of the container */
+    width: 100%; /* Responsive width */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Bootstrap blue */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+select, button, input {
+    width: 100%;
+    padding: 12px; /* Increased padding for better touch targets */
+    margin: 10px 0;
+    border: 2px solid #007bff; /* Consistent border color */
+    border-radius: 4px;
+    font-size: 16px; /* Larger font size for readability */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/*input {
+    width: 95%; /* Keep input width slightly smaller 
+}*/
+
+button {
+    background-color: #007bff; /* Bootstrap blue */
+    color: white;
+    font-weight: bold;
+    cursor: pointer; /* Pointer cursor for buttons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border: 2px solid #0056b3; /* Match border color on hover */
+}
+
+.result {
+    margin-top: 20px; /* Space above the result */
+    font-size: 18px; /* Larger font size for results */
+    text-align: center; /* Center the result text */
+    color: #333; /* Dark gray for better readability */
+}

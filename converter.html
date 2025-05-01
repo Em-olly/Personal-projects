@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="converter.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <select id="unitType">
+            <option value="weight">Weight (Pounds to Kilograms)</option>
+            <option value="volume">Volume (Milliliters to Liters)</option>
+            <option value="length">Length (Meters to Kilometers)</option>
+        </select>
+        <input type="number" id="inputValue" placeholder="Enter value">
+        <button onclick="convert()">Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="converter.js"></script>
+</body>
+</html>

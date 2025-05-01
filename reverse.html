@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="reverse.css"> 
+</head>
+<body>   
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <select id="unitType">
+            <option value="weight">Weight</option>
+            <option value="volume">Volume</option>
+            <option value="length">Length</option>
+        </select>
+
+        <select id="conversionDirection">
+            <option value="toKg">Pounds to Kilograms</option>
+            <option value="toL">Milliliters to Liters</option>
+            <option value="toKm">Meters to Kilometers</option>
+            <option value="toPounds">Kilograms to Pounds</option>
+            <option value="toMl">Liters to Milliliters</option>
+            <option value="toMeters">Kilometers to Meters</option>
+        </select>
+
+        <input type="text" id="inputValue" placeholder="Enter value" />
+        <button onclick="convert()">Convert</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="reverse.js"></script>
+    </body>
+    </html>
